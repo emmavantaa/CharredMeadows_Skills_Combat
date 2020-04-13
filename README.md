@@ -1,7 +1,8 @@
 # CharredMeadows_Skills_Combat
-A project I worked together with someone else. My job was to create the character/skill progression and combat.
+A project I worked together with someone else. My job was to create the character/skill progression and combat.<br>
+This was the first time I was creating a turn-based battle system and a character progression system.. <br>
 
-Bellow things will be better explained. 
+Below things will be better explained. 
 
 
 
@@ -56,3 +57,5 @@ Puts drops on ground
 UIManager:<br>
 Shows information<br>
 
+How the planning stage looked for the skill system. <br>
+<img src="Img/Screenshot_2.png" width="200">
