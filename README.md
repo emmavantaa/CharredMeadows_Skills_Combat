@@ -57,6 +57,7 @@ Puts drops on ground
 <br>
 UIManager:<br>
 Shows information<br>
+<br>
 
 How the planning stage looked for the skill system. <br>
 <img src="Img/Screenshot_2.png" width="350">
