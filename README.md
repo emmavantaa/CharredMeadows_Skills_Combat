@@ -21,6 +21,7 @@ It also contains player leveling up progression and adds more after every level 
 <img src="Img/PlayerProgression_Lvl1.png" width="200">
 <img src="Img/PlayerProgression_Lvl2.png" width="200">
 <br>
+<br>
 Skills:<br>
 Tells how skills work in Battle.<br>
 <img src="Img/wolf.png" width="300">
@@ -30,11 +31,11 @@ Tells how skills work in Battle.<br>
 SkillData[ScriptableObject]:<br>
 Skill information (Invidual skills which uses part from ElementalData)<br>
 Levels Skill up (The higher level skill the more it hits)<br>
-<img src="Img/skill.png" width="200">
-<img src="Img/Level_2_Skill.png" width="200">
+<img src="Img/skill.png" width="150"> 
+<img src="Img/Level_2_Skill.png" width="150">
+
+
 <br>
-
-
 ElementalData[ScriptableObject]:<br>
 Elemental information (Fire, Water, Wind & Earth)<br>
 Levels Elements up (Leveling Elements adds new skills to player)<br>
@@ -58,4 +59,4 @@ UIManager:<br>
 Shows information<br>
 
 How the planning stage looked for the skill system. <br>
-<img src="Img/Screenshot_2.png" width="200">
+<img src="Img/Screenshot_2.png" width="350">
