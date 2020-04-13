@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class CombatManager : OnEnterInteractable 
+public class EnterCombat : OnEnterInteractable 
 {
     [Header("Battle Data")]
     [SerializeField] private string BattleSceneName;
