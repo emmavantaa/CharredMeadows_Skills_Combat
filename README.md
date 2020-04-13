@@ -5,38 +5,54 @@ Bellow things will be better explained.
 
 
 
-GameManager:
-Gets/Sets Player Ref
-Stores player position to PlayerPrefs to save player position while jumping between main world and combat scene.
-Gets/Sets Enemy Ref
+GameManager: <br>
+Gets/Sets Player Ref <br>
+Stores player position to PlayerPrefs to save player position while jumping between main world and combat scene. <br>
+Gets/Sets Enemy Ref<br>
 
-LevelManager:
-World ref (Show/hide worldRoot while entering Combat) 
-Loads levels
+LevelManager:<br>
+World ref (Show/hide worldRoot while entering Combat) <br>
+Loads levels<br>
 
-PlayerData[Inherit from CreatureData]:
-Contains layer informatio, like health, level etc
-It also contains player leveling up progression and adds more after every level gained
+PlayerData[Inherit from CreatureData]:<br>
+Contains layer informatio, like health, level etc<br>
+It also contains player leveling up progression and adds more after every level gained<br>
+<img src="Img/PlayerProgression_Lvl1.png" width="200">
+<img src="Img/PlayerProgression_Lvl2.png" width="200">
+<br>
+Skills:<br>
+Tells how skills work in Battle.<br>
+<img src="Img/wolf.png" width="300">
+<img src="Img/skillusedwolf.png" width="300">
 
-Skills:
-Tells how skills work in Battle.
+<br>
+SkillData[ScriptableObject]:<br>
+Skill information (Invidual skills which uses part from ElementalData)<br>
+Levels Skill up (The higher level skill the more it hits)<br>
+<img src="Img/skill.png" width="200">
+<img src="Img/Level_2_Skill.png" width="200">
+<br>
 
-SkillData[ScriptableObject]:
-Skill information (Invidual skills which uses part from ElementalData)
-Levels Skill up (The higher level skill the more it hits)
 
-ElementalData[ScriptableObject]:
-Elemental information (Fire, Water, Wind & Earth)
-Levels Elements up (Leveling Elements adds new skills to player)
+ElementalData[ScriptableObject]:<br>
+Elemental information (Fire, Water, Wind & Earth)<br>
+Levels Elements up (Leveling Elements adds new skills to player)<br>
+<img src="Img/scriptableObj_Elem.png" width="200">
 
-EnemyManager:
-Puts enemy skills in use and tells how it works on the screen.
-Randomnizes on what skill enemy uses. 
 
-BattleManager:
-Controls combat progression (Turns)
-Sets positions
+ <br>
+EnemyManager:<br>
+Puts enemy skills in use and tells how it works on the screen.<br>
+Randomnizes on what skill enemy uses. <br>
+<img src="Img/enemyskillOnplayer.png" width="200">
 
-UIManager:
-Shows information
+<br>
+BattleManager:<br>
+Controls combat progression (Turns)<br>
+Sets positions<br>
+Puts drops on ground
+<img src="Img/enemydeath.png" width="200">
+<br>
+UIManager:<br>
+Shows information<br>
 
