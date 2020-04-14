@@ -2,7 +2,7 @@
 A project I worked together with someone else. My job was to create the character/skill progression and combat.<br>
 This was the first time I was creating a turn-based battle system and a character progression system.. <br>
 
-Below things will be better explained. 
+Things will be better explained below. 
 
 
 
